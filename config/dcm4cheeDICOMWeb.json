@@ -27,8 +27,8 @@
       },
       "peers": [
         {
-          "host": "localhost",
-          "port": 4242,
+          "host": "172.16.104.38",
+          "port": 11112,
           "aeTitle": "DCM4CHEE",
           "default": true,
           "supportsInstanceRetrievalByStudyUid": false
