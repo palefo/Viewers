@@ -25,8 +25,8 @@ WORKDIR /home/user/Viewers/OHIFViewer
 
 ENV METEOR_PACKAGE_DIRS=../Packages
 RUN meteor npm install
-COPY dockersupport/settings.json .
+COPY config/dcm4cheeDICOMWeb.json .
 
 EXPOSE 3000
 
-CMD ["meteor", "--settings", "settings.json"]
+CMD ["meteor", "--settings", "dcm4cheeDICOMWeb.json"]
